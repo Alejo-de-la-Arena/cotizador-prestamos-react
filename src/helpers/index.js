@@ -26,7 +26,7 @@ const calcularTotalPagar = (cantidad, plazo) => {
     } else if(plazo === 12){
         total *= 1.2; // Si tarda 1 año un 20% mas
     } else {
-        total *= 1.1; // Si tarda 2 años un 30% mas
+        total *= 1.3; // Si tarda 2 años un 30% mas
     }
     return total;
 }
